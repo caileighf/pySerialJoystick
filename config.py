@@ -1,4 +1,11 @@
 '''
+pySerialJoystick config.py
+
+Author: Caileigh Fitzgerald <cfitzgerald@whoi.edu>
+(c) 2019 Woods Hole Oceanographic Institution
+'''
+
+'''
 Order of operations for controls:
 
     1. call: control_inst.handle_event(pygame::event) --> sets values and calls on_action callable (if any)

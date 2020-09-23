@@ -1,10 +1,13 @@
+'''
+pySerialJoystick main.py
+
+Author: Caileigh Fitzgerald <cfitzgerald@whoi.edu>
+(c) 2019 Woods Hole Oceanographic Institution
+'''
 import traceback
-import serial
 import os
 import sys
-import io
 import threading
-import datetime
 import argparse
 import time
 
