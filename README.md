@@ -65,3 +65,56 @@ Name:      MY-POWER CO.,LTD. 2In1 USB Joystick
 <Event(7-JoyAxisMotion {'joy': 0, 'axis': 3, 'value': 0.020599993896298106})>
 <Event(7-JoyAxisMotion {'joy': 0, 'axis': 3, 'value': 0.0})>
 ```
+
+### Example output with the values in `config.py`
+```
+$ python main.py
+
+$LEFT_JOY,v,0.0
+$LEFT_JOY,v,-0.030945768608661155
+$LEFT_JOY,v,-0.195898312326426
+$LEFT_JOY,h,0.0
+$LEFT_JOY,v,-0.22681356242561113
+$LEFT_JOY,h,-0.2165288247322001
+$LEFT_JOY,v,0.0
+$LEFT_JOY,v,0.0
+$LEFT_JOY,h,-1.000030518509476
+$LEFT_JOY,h,-0.7217017120883816
+$LEFT_JOY,h,-0.3402203436384167
+$LEFT_JOY,h,-0.030945768608661155
+$LEFT_JOY,h,0.0
+$CIRCLE,pressed
+$CIRCLE,released
+$SQAURE,pressed
+$SQAURE,released
+$TRIANGLE,pressed
+$TRIANGLE,released
+$RIGHT_TOP,pressed
+$RIGHT_TOP,released
+$RIGHT_TOP,pressed
+$RIGHT_TOP,released
+$RIGHT_TRIG,pressed
+$RIGHT_TRIG,released
+$LEFT_TRIG,pressed
+$LEFT_TRIG,released
+$LEFT_TRIG,pressed
+$LEFT_TRIG,released
+$DPAD,up
+$DPAD,up
+$DPAD,up
+$DPAD,up
+$DPAD,down
+$DPAD,right
+$START,pressed
+$START,released
+$SELECT,pressed
+$SELECT,released
+$RIGHT_JOY,h,0.0
+$RIGHT_JOY,h,0.24741355632190923
+$RIGHT_JOY,h,0.4226813562425611
+$RIGHT_JOY,h,0.5257728812524797
+$RIGHT_JOY,h,0.5154576250495926
+$RIGHT_JOY,h,0.4329966124454482
+$RIGHT_JOY,h,0.030915250099185155
+$RIGHT_JOY,h,0.0
+```
